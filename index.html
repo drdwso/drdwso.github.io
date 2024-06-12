@@ -1,36 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C.V. - Deyvid Oliveira</title>
-    <meta name="description"
-    content="Curriculum Vitae of Deyvid Oliveira, showcasing academic achievements and research interests.">
+    <meta name="description" content="Curriculum Vitae of Deyvid Oliveira, showcasing academic achievements and research interests.">
     <meta name="keywords" content="curriculum vitae, academic, research, Deyvid Oliveira, scientist, fisheries, aquaculture, microalgae, engineer">
     <meta http-equiv="content-language" content="en-US">
 
-
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            width: auto;
+            line-height: 1.6;
         }
 
         header {
             background-color: #07063b;
             color: #fff;
             padding: 20px;
-            
+            text-align: center;
         }
 
-        h1 {
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
             margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
         }
 
         main {
             margin: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p,
+        ul {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         footer {
@@ -38,6 +96,7 @@
             color: #fff;
             padding: 20px;
             font-size: 14px;
+            text-align: center;
         }
 
         footer a {
@@ -45,73 +104,217 @@
             text-decoration: none;
             margin: 0 10px;
         }
-        a {
-        color: black;
-        text-decoration: none; /* no underline */
-}
+
+        .blurred {
+            filter: blur(5px);
+            cursor: pointer;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        form input[type="submit"] {
+            background-color: #07063b;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #333;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+
+            header,
+            footer {
+                text-align: center;
+                padding: 10px;
+            }
+
+            main {
+                margin: 10px;
+            }
+
+            nav ul {
+                float: none;
+            }
+
+            nav ul li {
+                float: none;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header>
+        <img src="profile-deyvid_oliveira.jpg" alt="Deyvid Oliveira">
         <h1>Curriculum Vitae</h1>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="#personal-info">Personal Information</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research-interests">Research Interests</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#fellowships">Fellowships</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <br>
-        <h2>Personal Information</h2>
-        <p>Name: Deyvid Willame Silva Oliveira</p>
-        <p>E-mail: deyvidwillame@gmail.com • deyvid.oliveira@ufrpe.br</p>
-        <p>Address: Laboratório de Produção de Alimento Vivo - DEPAq - UFRPE<br><a href="https://goo.gl/maps/PVwii2y4oenwvjccA">🌐 Google Plus Code X3J4+58J Recife, PE (click here)</a></p> 
-<br>
-        <h2>Education</h2>
-        <p>Ph.D. student - Fisheries Resources and Aquaculture, Federal Rural University of Pernambuco (<a href="https://www.ufrpe.br/">Universidade Federal Rural de Pernambuco</a>).</p>
-        <p>M.S. in Fisheries Resources and Aquaculture, Federal Rural University of Pernambuco (<a href="https://www.ufrpe.br/">Universidade Federal Rural de Pernambuco</a>), 2022.</p>
-        <p>B.S. in Bachelor in Fisheries Engineering, Federal Rural University of Pernambuco (<a href="https://www.ufrpe.br/">Universidade Federal Rural de Pernambuco</a>), 2019.</p>
-<br>
-        <h2>Research Interests</h2>
-        <ul>
-            <li>Microalgae Biotecnology</li>
-            <li>Microalgae Upstream Systems</li>
-            <li>Aquaculture Engineering</li>
-            <li>Innovation and Product Development</li>
-        </ul>
-<br>
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="https://orcid.org/0000-0002-0897-4008">🌐 ORCID Profile (click here)</a></li>
-            <li><a href="https://scholar.google.com.br/citations?user=8LEkQaQAAAAJ&hl=pt-BR&oi=ao">🌐 Google Academic Profile (click here)</a></li>
-            <li><a href="https://lattes.cnpq.br/4224003240625541">🌐 C.V. Lattes - CNPq 🇧🇷 (click here)</a></li>
-        </ul>
-<br>
-        <h2>Research Fellowships</h2>
-        <ul>
-            <li><b>Sandwich PhD Program - CAPES PrInt</b><br>
-                Foreign institution: Università degli Studi di Firenze 🇮🇹<br>
-                Granting Institution: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 🇧🇷<br>
-                Amount: EUR 7,800<br>
-                2024-02 to 2024-06<br>
-                88887.917217/2023-00
-            </li><br>
-            <li><b>Doctoral Fellowship</b><br>
-                Granting Institution: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 🇧🇷<br>
-                Amount: BRL 132,300<br>
-                2022-06 to 2026-02<br>
-                88887.695202/2022-00 (Finance Code 001)
-            </li><br>
-            <li><b>Master's Fellowship</b><br>
-                Granting Institution: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 🇧🇷<br>
-                Amount: BRL 43,500<br>
-                2022-01 to 2019-09<br>
-                88882.436212/2019-01 (Finance Code 001)
-            </li><br>
-        </ul>
-        <br>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p>Name: Deyvid Willame Silva Oliveira</p>
+            <p>E-mail: deyvidwillame@gmail.com • deyvid.oliveira@ufrpe.br</p>
+            <p>Address: Laboratório de Produção de Alimento Vivo - DEPAq - UFRPE<br><a href="https://goo.gl/maps/PVwii2y4oenwvjccA">🌐 Google Plus Code X3J4+58J Recife, PE (click here)</a></p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Ph.D. student - Fisheries Resources and Aquaculture, Federal Rural University of Pernambuco (<a href="https://www.ufrpe.br/">Universidade Federal Rural de Pernambuco</a>).</p>
+            <p>M.S. in Fisheries Resources and Aquaculture, Federal Rural University of Pernambuco (<a href="https://www.ufrpe.br/">Universidade Federal Rural de Pernambuco</a>), 2022.</p>
+            <p>B.S. in Bachelor in Fisheries Engineering, Federal Rural University of Pernambuco (<a href="https://www.ufrpe.br/">Universidade Federal Rural de Pernambuco</a>), 2019.</p>
+        </section>
+
+        <section id="research-interests">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Microalgae Biotecnology</li>
+                <li>Microalgae Upstream Systems</li>
+                <li>Aquaculture Engineering</li>
+                <li>Innovation and Product Development</li>
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://orcid.org/0000-0002-0897-4008">🌐 ORCID Profile (click here)</a></li>
+                <li><a href="https://scholar.google.com.br/citations?user=8LEkQaQAAAAJ&amp;hl=pt-BR&amp;oi=ao">🌐 Google Academic Profile (click here)</a></li>
+                <li><a href="https://lattes.cnpq.br/4224003240625541">🌐 C.V. Lattes - CNPq 🇧🇷 (click here)</a></li>
+            </ul>
+        </section>
+
+        <section id="fellowships">
+            <h2>Research Fellowships</h2>
+            <ul>
+                <li>
+                    <b>Sandwich PhD Program - CAPES PrInt</b><br>
+                    Foreign institution: Università degli Studi di Firenze 🇮🇹<br>
+                    Granting Institution: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 🇧🇷<br>
+                    Amount: <span class="blurred">EUR 7,800</span><br>
+                    2024-02 to 2024-06<br>
+                    88887.917217/2023-00
+                </li>
+                <br>
+                <li>
+                    <b>Doctoral Fellowship</b><br>
+                    Granting Institution: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 🇧🇷<br>
+                    Amount: <span class="blurred">BRL 132,300</span><br>
+                    2022-06 to 2026-02<br>
+                    88887.695202/2022-00 (Finance Code 001)
+                </li>
+                <br>
+                <li>
+                    <b>Master's Fellowship</b><br>
+                    Granting Institution: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior 🇧🇷<br>
+                    Amount: <span class="blurred">BRL 43,500</span><br>
+                    2022-01 to 2019-09<br>
+                    88882.436212/2019-01 (Finance Code 001)
+                </li>
+                <br>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Microalgae Biotechnology</li>
+                <li>Aquaculture Engineering</li>
+                <li>Research and Data Analysis</li>
+                <li>Product Development</li>
+                <li>Technical Writing</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="mailto:deyvidwillame@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+
+                <input type="submit" value="Send">
+                <p class="error" id="error-message"></p>
+            </form>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Deyvid Oliveira. All rights reserved.</p>
+        <p>© 2024 Deyvid Oliveira. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.querySelectorAll('.blurred').forEach(element => {
+            element.addEventListener('click', () => {
+                element.classList.remove('blurred');
+            });
+        });
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var errorMessage = document.getElementById('error-message');
+
+            if (!name || !email || !message) {
+                event.preventDefault();
+                errorMessage.textContent = "Please fill out all fields.";
+            } else {
+                errorMessage.textContent = "";
+            }
+        });
+    </script>
 </body>
 
 </html>
